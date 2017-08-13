@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="methods">
+  <test name="TestChrome(failed)" parallel="methods">
+    <parameter name="browsername" value="chrome"/>
+    <parameter name="appurl" value="https://in.yahoo.com/?p=us"/>
+    <classes>
+      <class name="com.testng.yahoo.YahooTest.YahooTestRunner">
+        <methods>
+          <include name="searchText3"/>
+          <include name="postConditions"/>
+          <include name="preConditions"/>
+          <include name="beforesuite"/>
+          <include name="searchText"/>
+        </methods>
+      </class> <!-- com.testng.yahoo.YahooTest.YahooTestRunner -->
+    </classes>
+  </test> <!-- TestChrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <parameter name="browsername" value="chrome"/>
+    <parameter name="appurl" value="https://in.yahoo.com/?p=us"/>
+    <classes>
+      <class name="com.testng.yahoo.YahooTest.YahooTestRunner">
+        <methods>
+          <include name="preConditions"/>
+          <include name="searchText"/>
+        </methods>
+      </class> <!-- com.testng.yahoo.YahooTest.YahooTestRunner -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

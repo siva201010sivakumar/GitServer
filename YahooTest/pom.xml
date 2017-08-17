@@ -25,7 +25,7 @@
   				<version>${maven-surefire-plugin.version}</version>
   				<configuration>
   					<suiteXmlFiles>
-  						<suiteXmlFile>testngYahoo.xml</suiteXmlFile>
+  						<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
   					</suiteXmlFiles>
   				</configuration>
   			</plugin>

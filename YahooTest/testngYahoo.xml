@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="methods" thread-count="3">
+  <test name="TestChrome">
+  
+  
+  	<parameter name="browsername" value="chrome"></parameter>
+  	<parameter name="appurl" value="https://in.yahoo.com/?p=us"></parameter>
+    <classes>
+      <class name="com.testng.yahoo.YahooTest.YahooTestRunner"/>
+    </classes>
+  </test> 
+  <!-- <test name="TestFirefox">
+  
+  
+  	<parameter name="browsername" value="firefox"></parameter>
+  	<parameter name="appurl" value="https://in.yahoo.com/?p=us"></parameter>
+    <classes>
+      <class name="com.testng.yahoo.YahooTest.YahooTestRunner"/>
+    </classes>
+  </test> -->
+</suite> <!-- Suite -->
